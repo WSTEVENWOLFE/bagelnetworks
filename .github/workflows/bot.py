@@ -26,7 +26,6 @@ bot = TeamsBot(
         {"resource": "messages", "event": "created"},
         {"resource": "attachmentActions", "event": "created"},],
 )
-
 # Create a function to respond to messages that lack any specific command
 # The greeting will be friendly and suggest how folks can get started.
 def greeting(incoming_msg):
